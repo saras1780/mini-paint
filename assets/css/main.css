@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-tool {
+  @apply bg-rose-300 text-white py-2 px-4 rounded hover:bg-rose-400 focus:outline-none;
+}
+
+.btn-action {
+  @apply bg-rose-500 text-white py-2 px-4 rounded hover:bg-rose-600 focus:outline-none;
+}
+
+.slider {
+  @apply w-full h-2 bg-gray-300 rounded-lg cursor-pointer;
+}
